@@ -1,3 +1,21 @@
+# Unreal Engine
+# ==========================================
+
+# Build results
+Build/
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Script/
+
+# Per-developer content folder
+Content/Developers/
+
+# Ignore Binaries and Intermediate folders within plugins
+/Plugins/*/Binaries/
+/Plugins/*/Intermediate/
+
 # Visual Studio 2015 user specific files
 .vs/
 
